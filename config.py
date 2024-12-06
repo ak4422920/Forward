@@ -7,7 +7,7 @@ class Config:
     BOT_TOKEN = environ.get("BOT_TOKEN", "6924260774:AAH4tUATROz_mppiM42Bym0eSdYNmaBciBc") 
     BOT_SESSION = environ.get("BOT_SESSION", "AKautoforward_bot") 
     DATABASE_URI = environ.get("DATABASE", "mongodb+srv://cine:cine@cluster0.w6hlw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-    DATABASE_NAME = environ.get("DATABASE_NAME", ""Cluster0)
+    DATABASE_NAME = environ.get("DATABASE_NAME", "Cluster0")
     BOT_OWNER_ID = [int(id) for id in environ.get("BOT_OWNER_ID", '7251898668 7362830109').split()]
     LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002465350009'))
     FORCE_SUB_CHANNEL = environ.get("FORCE_SUB_CHANNEL", "-1002198396079") 
